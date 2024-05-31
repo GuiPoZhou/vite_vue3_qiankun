@@ -1,0 +1,60 @@
+{
+  "routerPrefix": "/micProject",
+  "moduleName": "micProject",
+  "routerList": [
+    {
+      "path": "/index",
+      "name": "index",
+      "meta": "首页",
+      "component": "photoIndex/index.vue",
+      "permList": []
+    },
+    {
+      "path": "/photoIndex",
+      "name": "photoIndex",
+      "meta": "首页",
+      "component": "photoIndex/index.vue",
+      "permList": []
+    },
+    {
+      "path": "/:widgetId",
+      "name": "widgetLog",
+      "meta": "动态表单",
+      "component": "components/kevinForm/index.vue",
+      "permList": [
+        {
+          "name": "导入",
+          "symbolName": "import"
+        },
+        {
+          "name": "导出",
+          "symbolName": "export"
+        },
+        {
+          "name": "新增",
+          "symbolName": "add"
+        },
+        {
+          "name": "查看",
+          "symbolName": "detail"
+        },
+        {
+          "name": "编辑",
+          "symbolName": "edit"
+        },
+        {
+          "name": "删除",
+          "symbolName": "delete"
+        },
+        {
+          "name": "提交",
+          "symbolName": "submit"
+        },
+        {
+          "name": "打印",
+          "symbolName": "print"
+        }
+      ]
+    }
+  ]
+}

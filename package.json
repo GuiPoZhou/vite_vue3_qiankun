@@ -1,0 +1,38 @@
+{
+  "name": "element-plus-vite-starter",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "generate": "vite-ssg build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "js-cookie": "3.0.1",
+    "kevin-engine": "latest",
+    "axios": "^1.7.2",
+    "core-js": "^3.6.5",
+    "moment": "^2.30.1",
+    "element-plus": "^2.6.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.0.0-beta.11",
+    "vuex": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@iconify-json/ep": "^1.1.15",
+    "@types/node": "^20.11.30",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.72.0",
+    "typescript": "^5.4.3",
+    "unocss": "^0.58.6",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.2.5",
+    "vite-plugin-qiankun": "^1.0.15",
+    "vite-ssg": "^0.23.6",
+    "vue-tsc": "^2.0.7"
+  },
+  "license": "MIT"
+}
